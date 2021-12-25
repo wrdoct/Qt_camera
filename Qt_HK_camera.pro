@@ -47,8 +47,8 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-LIBS += -LC:/Users/LLW/Desktop/Qt_HK_camera/Qt_HK_camera/libs -lHCCore -lHCNetSDK -lPlayCtrl -lGdiPlus
-LIBS += -LC:/Users/LLW/Desktop/Qt_HK_camera/Qt_HK_camera/libs/HCNetSDKCom -lHCAlarm -lHCGeneralCfgMgr -lHCPreview
+LIBS += -LD:/Git/GitHub_Desktop/Qt_camera/libs -lHCCore -lHCNetSDK -lPlayCtrl -lGdiPlus
+LIBS += -LD:/Git/GitHub_Desktop/Qt_camera/libs/HCNetSDKCom -lHCAlarm -lHCGeneralCfgMgr -lHCPreview
 
 DISTFILES += \
     image/Road.png \
